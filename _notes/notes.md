@@ -32,4 +32,4 @@ cards = ["Ace", "Two"]
 
 The two structures must match. If the left is a single variable, it will be matched to the entire data object, be it a List, or Tuple, or String, or whatever. In this way, it's similar to standard Variable Assignment
 
-In this case, `cards` is a function, which returns `["Ace", "Two"]`, rather than a `variable`
+In this case, `cards` is a function, which returns `["Ace", "Two"]`, rather than a `variable`?
