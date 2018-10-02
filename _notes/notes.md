@@ -33,3 +33,14 @@ cards = ["Ace", "Two"]
 The two structures must match. If the left is a single variable, it will be matched to the entire data object, be it a List, or Tuple, or String, or whatever. In this way, it's similar to standard Variable Assignment
 
 In this case, `cards` is a function, which returns `["Ace", "Two"]`, rather than a `variable`?
+
+### Matching the "Rest" of a list
+
+To match the "rest" of a list (ie, only take the first few values) we use a pipe, and an  underscored "unused" variable.
+
+```ruby
+example_list = ["a", "b", "c", "d", "e"]
+
+# use '|' pipe, followed by an _unused variable
+{var1, var2 | _rest} = example_list 
+```
