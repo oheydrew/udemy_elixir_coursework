@@ -156,8 +156,8 @@ defmodule Identicon do
     %Identicon.Image{image_struct | pixel_map: pixel_map}
   end
 
-  def draw_image(%Identicon.Image{color: color, pixel_map: pixel_map}) do
-    image = :egd.create(250, 250)
+  def draw_image(%Identicon.Image{color: color, pixel_map: pixel_map, pixel_size: pixel_size}) do
+    image = :egd.create(pixel_size * 5, pixel_size * 5)
     fill = :egd.color(color)
 
     Enum.each pixel_map, fn({start, stop}) ->
