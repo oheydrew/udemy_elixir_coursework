@@ -9,4 +9,5 @@ Just a repo for all my coursework, notes etc during the ![The Complete Elixir an
 Modules
 -------
 
-- [Cards](cards/) - First module / workbook exercise code-along
+- [Cards](cards/) - First module / workbook exercise code-along. Creates and shuffles a deck of playing cards (lists, tuples, functional basics, ex-doc, doctests)
+- [Identicon](identicon/) - Create a unique image-based avatar ID from a string. (Structs, pattern-matching, Pipe |>, Erlang modules)
